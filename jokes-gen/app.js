@@ -3,8 +3,8 @@ document.querySelector('.get-jokes').addEventListener('click', genJokes);
 function genJokes(e) {
   const num = document.getElementById('number').value;
   const name = document.getElementById('name').value.split(' ');
-  console.log(num);
-  console.log(`https://api.icndb.com/jokes/random/${num}?firstName=${name[0]}&lastName=${name[1]}`);
+  // console.log(num);
+  // console.log(`https://api.icndb.com/jokes/random/${num}?firstName=${name[0]}&lastName=${name[1]}`);
 
   const xhr = new XMLHttpRequest();
 
